@@ -10,7 +10,7 @@ from modules.metrics import calculate_swing_metrics, print_summary_statistics
 def main():
     parser = argparse.ArgumentParser(description="AI Golf Swing Tracker & Biomechanical Analyzer")
     parser.add_argument("--video", type=str, required=True, help="Path to the input video file (e.g., data/raw/swing.mp4)")
-    parser.add_argument("--model", type=str, default="yolov8n.pt", help="Path to the YOLO club detection model weights")
+    parser.add_argument("--model", type=str, default="best.pt", help="Path to the YOLO club detection model weights")
     args = parser.parse_args()
 
     print("\n⛳ Initializing AI Golf Tracker...")
