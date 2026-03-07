@@ -4,10 +4,10 @@ from modules.biomech import weighted_smooth, detect_swings
 from modules.common import MP_INDICES
 
 # 1. Load
-model = YOLO("best.pt")
+model = YOLO("model/path")
 
 # 2. See
-raw_data = process_video("sample11sped.mp4", model, MP_INDICES, CameraValidator())
+raw_data = process_video("video/path", model, MP_INDICES, CameraValidator())
 
 # 3. Think
 clean_data = weighted_smooth(raw_data, MP_INDICES)
