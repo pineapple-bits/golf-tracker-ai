@@ -1,0 +1,36 @@
+# --- 1. Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv/
+
+# --- 2. Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- 3. Model Weights ---
+*.pt
+*.pth
+*.onnx
+*.tflite
+runs/
+wandb/
+
+# --- 4. Data & Media ---
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.png
+*.jpeg
+data/
+datasets/
+output/
+
+# --- 5. IDE Settings ---
+.vscode/
+.idea/
+.DS_Store
