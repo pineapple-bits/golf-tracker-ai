@@ -7,7 +7,10 @@
 An industry-level, AI-driven biomechanical analysis tool designed to extract key kinematic metrics from golf swing videos. This pipeline leverages MediaPipe for human pose estimation and a custom-trained YOLOv8 model (`best.pt`) for club tracking. It applies advanced signal processing to render a real-time HUD and calculate professional-grade swing mechanics.
 
 
-https://github.com/user-attachments/assets/788e95b1-e0b5-4306-9fed-07c08df58bca
+
+https://github.com/user-attachments/assets/c896c5af-c7ce-4702-91a4-da8c2591ba86
+
+
 
 ## 🚀 Core Capabilities
 * **Intelligent Swing Detection:** Utilizes `scipy.signal.find_peaks` on wrist-y coordinates combined with velocity thresholds to automatically segment the swing into Address, Top of Backswing, and Impact phases with a built-in detection cooldown.
