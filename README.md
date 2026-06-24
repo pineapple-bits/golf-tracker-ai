@@ -32,7 +32,7 @@ The codebase is structured into production-ready modules alongside exploratory J
 
 ```bash
 # Clone the repository
-git clone [https://github.com/pineapple-bits/golf-tracker-ai.git](https://github.com/pineapple-bits/golf-tracker-ai.git)
+git clone https://github.com/pineapple-bits/golf-tracker-ai.git
 cd golf-tracker-ai
 
 # Install dependencies (OpenCV, Ultralytics, MediaPipe, Pandas, SciPy)
